@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #4b93bf;
+
+
+}
+
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+
+ul {
+  display: flex;
+
+}
+
+li {
+  margin: 30px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.box1 {
+  display: flex;
+  background-color: #4b93bf;
+  width: 70vw;
+  justify-content: flex-end;
+  font-size: 28px;
+
+}
+
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box3 {
+  display: flex;
+  background-color: #4b93bf;
+  text-decoration: #ffffff;
+  justify-content: space-evenly;
+}
+
+.principal {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 60px;
+  display: flex;
+  font-size: 25px;
+  color: #4b93bf;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #4b93bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e4eef1;
+  margin-bottom: 2px;
+}
+
+
+.links {
+  display: flex;
+}
+
+.periodo {
+  display: flex;
+  background-color: #4b93bf;
+  font-size: 52px;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 400px;
+}
+
+.inverno {
+  display: flex;
+  background-color: #4b93bf;
+}
+
+.urso {
+  width: 300px;
+  height: 40vh;
+  position: relative;
+  border: 3px solid rgb(234, 237, 245);
+  background-color: #ffffff;
+  /*justify-content: space-around;*/
+}
+
+.polar {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 20px;
+  left: 15px;
+  
+  }
+
+.isolada {
+  display: flex;
+}
+
+.final {
+  display: flex;
+  font-size: 20px;
+  padding: 2px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.redes {
+  width: 10vw;
+  height: 20vh;
+}
